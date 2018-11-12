@@ -21,7 +21,7 @@ function johnLennonFacts(facts) {
 //or: facts.map(x => x + "!!!")
 
 function iLoveTheBeatles(number) {
-  var array = []
+  var array = ["I love the Beatles!"]
 
    do {
      array.push = "I love the Beatles!"
