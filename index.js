@@ -1,5 +1,4 @@
 // add solution here
-
 function theBeatlesPlay(musicians, instruments) {
   var playArray = []
 
@@ -21,15 +20,13 @@ function johnLennonFacts(facts) {
 
 //or: facts.map(x => x + "!!!")
 
-function iLoveTheBeatles(num) {
-   var arr = [];
-   console.log("A", arr.length)
-   do {
-     arr.push = "I love the Beatles!";
-     console.log("B", arr.length)
-     num++;
-   } while(num < 15)
+function iLoveTheBeatles(number) {
+  var array = []
 
-   console.log("C", arr.length)
-   return arr;
-}
+   do {
+     array.push = "I love the Beatles!"
+     number++
+   } while(number < 15)
+
+   return array
+} 
